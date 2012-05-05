@@ -1,0 +1,10 @@
+#!/bin/sh
+
+#Disabled by default, uncomment to enable
+exit 0
+
+
+/usr/sbin/virt-sanlock-cleanup -q 2>/dev/null
+exit 0
+
+
